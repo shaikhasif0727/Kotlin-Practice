@@ -93,7 +93,8 @@ class MainActivity : ComponentActivity() {
                                 val args = it.toRoute<Destination.DetailsScreen>()
                                 Column(
                                     modifier = Modifier.fillMaxSize(),
-                                    verticalArrangement = Arrangement.Center
+                                    verticalArrangement = Arrangement.Center,
+                                    horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
 
                                     Text(text = "ID:${args.id}")
